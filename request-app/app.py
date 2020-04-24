@@ -1,7 +1,7 @@
 import requests
 from time import sleep
 
-url_base = 'http://os-sample-python-git:8080'
+url_base = 'http://webapi-app:8080'
 para = '/api/v1/resources/books/all'
 url = url_base + para
 
