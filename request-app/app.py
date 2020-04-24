@@ -18,6 +18,9 @@ while True:
         print(E)
     n += 1
     sleep(5)
+    f = open('/data/result.txt','w+')
+    f.write("hahahaha \n")
+    f.close()
     if n > 1000:
         break
 
